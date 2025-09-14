@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>אור — מהנדס / מפתח</title>
+<meta name="description" content="אור — מהנדס ומפתח חומרה ותוכנה. קורות־חיים, פרויקטים ויצירת קשר." />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="site-header">
+<div class="container header-inner">
+<div class="brand">
+<img src="avatar.jpg" alt="תמונת פרופיל" class="avatar" />
+<div>
+<h1 class="name">אור</h1>
+<p class="role">מהנדס אלקטרוניקה • מפתח חומרה ותוכנה • סטארטאפיסט</p>
+</div>
+</div>
+
+<nav class="main-nav" aria-label="ניווט ראשי">
+<a href="#about">אודות</a>
+<a href="#resume">קורות חיים</a>
+<a href="#contact">יצירת קשר</a>
+</nav>
+
+<button id="menu-toggle" aria-label="תפריט">☰</button>
+</div>
+</header>
+
+<main>
+<!-- HERO -->
+<section id="hero" class="hero">
+<div class="container hero-inner">
+<div class="hero-left">
+<h2>מהנדס ומפתח מוצרי חומרה ותוכנה</h2>
+<p class="lead">מתמחה ב־VLSI, מעגלים אנלוגיים, מערכות eingebedded ויישומי מובייל. מעוניין בפרויקטים טכנולוגיים ואתגרים בהטמעת פתרונות סקלביליים.</p>
+<div class="hero-ctas">
+<a class="btn" href="#resume">קורות חיים</a>
+<a class="btn outline" href="#contact">צרו קשר</a>
+</div>
+</div>
+<div class="hero-right">
+<div class="card-stats">
+<div>
+<div class="stat-num">5+</div>
+<div class="stat-label">שנות ניסיון</div>
+</div>
+<div>
+<div class="stat-num">10+</div>
+<div class="stat-label">פרויקטים</div>
+</div>
+<div>
+<div class="stat-num">CTO</div>
+<div class="stat-label">תפקידים מובילים</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="container section">
+<h3>אודות</h3>
+<div class="about-grid">
+<div class="about-text">
+<p>שלום — אני אור, מהנדס אלקטרוניקה ובעל ניסיון בפיתוח חומרה ותוכנה. עבדתי על עיצובים אנלוגיים, פרויקטים ב־VLSI, ופיתחתי פתרונות חכמים לפתיחת דלתות במערכת ארנק דיגיטלי.</p>
+<p>תחומי התמחות: תכנון מעגלים אנלוגיים, חיבורי embedded, תכנות ב־C/Python, ועבודה עם צוותים מוצריים לפיתוח MVP ופריסה.</p>
+<ul class="skills">
+<li>VLSI / ASIC design</li>
+<li>Embedded systems (C, RTOS)</li>
+<li>Analog & mixed-signal</li>
+<li>Project leadership & prototyping</li>
+</ul>
+</div>
+<div class="about-image">
+<img src="about-illustration.svg" alt="איור טכנולוגי" />
+</div>
+</div>
+</section>
+
+<!-- RESUME -->
+<section id="resume" class="container section">
+<h3>קורות חיים</h3>
+<p>להורדת קובץ קורות החיים (PDF) — לחץ/י כאן:</p>
+<p class="resume-links">
+<a class="btn" href="cv.pdf" download>הורד קורות חיים (PDF)</a>
+<a class="btn outline" href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener">LinkedIn</a>
+<a class="btn outline" href="https://github.com/yourprofile" target="_blank" rel="noopener">GitHub</a>
+</p>
+
+<div class="resume-card">
+<h4>ניסיון תעסוקתי נבחר</h4>
+<div class="job">
+<div class="job-title">מייסד / מהנדס ראשי — SmartKey</div>
+<div class="job-meta">2024 – היום</div>
+<p>פיתוח כרטיס חכם לפתיחת חדרים במלונות באמצעות ארנק דיגיטלי; אחריות על החומרה, פרוטוקולי תקשורת ואינטגרציה למערכת מובייל.</p>
+</div>
+
+<div class="job">
+<div class="job-title">מהנדס אלקטרוניקה — חברת דמה</div>
+<div class="job-meta">2022 – 2024</div>
+<p>תכנון מעגלים אנלוגיים, סימולציות SPICE, ותמיכה בהבאת מערכות לפרודקשן.</p>
+</div>
+</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="container section">
+<h3>יצירת קשר</h3>
+<p>רוצה לדבר על פרויקט, שיתוף פעולה או להתייעץ? מלא את הטופס או שלח ישירות למייל — <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+
+<form class="contact-form" action="mailto:youremail@example.com" method="post" enctype="text/plain">
+<label>שם
+<input type="text" name="name" placeholder="שמך" required />
+</label>
+
+<label>דוא״ל
+<input type="email" name="email" placeholder="you@example.com" required />
+</label>
+
+<label>הודעה
+<textarea name="message" rows="6" placeholder="מה תרצה לשתף?" required></textarea>
+</label>
+
+<div class="form-actions">
+<button type="submit" class="btn">שלח אימייל</button>
+<a class="btn outline" href="mailto:youremail@example.com">שלח דרך תוכנת דוא״ל</a>
+</div>
+</form>
+</section>
+</main>
+
+<footer class="site-footer">
+<div class="container">
+<p>© <span id="year"></span> — אור. כל הזכויות שמורות.</p>
+</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
